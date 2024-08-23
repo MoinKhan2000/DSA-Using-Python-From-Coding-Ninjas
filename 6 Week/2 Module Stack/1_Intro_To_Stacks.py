@@ -1,0 +1,5 @@
+# Push (Insert into the top of the stack)
+# Pop (Delete the top most element)
+# Top (Access the top element of stack)
+# Size (Size of the stack)
+# isEmpty ( Check if the stack is empty or not)

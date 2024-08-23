@@ -1,0 +1,28 @@
+Singly Linked List :
+
+    1 -> 2 -> 3 -> 4 -> Null
+    It stores Node{
+        data : value
+        next : pointer to the next Node
+    }
+
+Doubly Linked List :
+
+    Null <- 1 <-> 2 <-> 3 <-> 4 <-> 5 -> Null
+    It stores Node{
+        data : value
+        prev : pointer to the previous element
+        next : pointer to the next element
+    }
+
+Circular Singly Linked List :
+    1 -> 2 -> 3 -> 4 ->
+    ^<________________|
+    -> Insertion at the starting (head) it will take O(n) cause we have to point the tail to that node.
+
+Circular Doubly Linked List :
+
+    1 -> 2 -> 3 -> 4 -> 5 ->-
+    | |                     ||
+    | |_____________________||
+    |________________________|
